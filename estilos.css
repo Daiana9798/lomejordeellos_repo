@@ -1,0 +1,561 @@
+* {
+    margin: 0px;
+    padding: 1px;
+  }
+  
+  /*Encabezado*/
+  .bannergato {
+    width: 100%;
+    height: 350px;
+  }
+  
+  header .encabezadoMenu {
+    background-color: #67911a;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+  }
+  header .encabezadoMenu a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  header ul li {
+    list-style: none;
+  }
+  header .encabezadoMenu li {
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 2px 11px;
+    position: relative;
+    transition: 2s;
+  }
+  header .encabezadoMenu li:hover {
+    background-color: whitesmoke;
+  }
+  header .encabezadoMenu a:hover {
+    color: #0a410a;
+  }
+  header .encabezadoMenu ul ul {
+    position: absolute;
+    display: none;
+    margin: 5px 10px 2px -5px;
+    font-family: sans-serif;
+    padding: 7px;
+    background-color: #67911a;
+  }
+  header ul li:hover ul {
+    display: block;
+  }
+  header .encabezadoMenu ul ul li {
+    display: block;
+    position: relative;
+    margin: 5px -5px -4px -5px;
+    font-family: sans-serif;
+    padding: 12px;
+  }
+  header .encabezadoMenu ul li a:hover {
+    background-color: #ddf0bb;
+  }
+  /*Fin encabezado*/
+  
+  body {
+    background: linear-gradient(to bottom, #c0dd89, whitesmoke);
+  }
+  
+  .titulo1 {
+    text-align: center;
+    text-decoration: none;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    font-family: "Noto Sans JP";
+    font-size: 37px;
+    color: rgb(0, 139, 109);
+    line-height: 150px;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+  
+  
+  .carousel{
+    width: 80%;
+    height: 700px;
+    margin-left: 165px;
+    margin-bottom: 50px;
+   
+  }
+  
+  .carousel .carousel-inner {
+    width: 100%;
+    height: 700px;
+    margin-right: 100px;
+  }
+  
+  .carousel img {
+    height: 680px;
+    width: 1300px;
+    border-radius: 10px;
+  }
+  
+  .quienestitulo {
+    font-family: "Noto Sans JP";
+    font-size: 30px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    color: darkgreen;
+    margin-left: 780px;
+    line-height: 15px;
+    font-weight: bolder;
+  }
+  
+  .objetivotitulo {
+    font-family: "Noto Sans JP";
+    font-size: 30px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    color: darkgreen;
+    margin-left: 780px;
+    line-height: 7px;
+    font-weight: bolder;
+  }
+  
+  section .seccion {
+    width: 80%;
+    margin: 2em auto;
+  }
+  section article {
+    color: darkslategray;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin: 2em 2em 4em 2em;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  section p {
+    padding: 60px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    margin-left: 40px;
+  }
+  
+  
+  /*tabla*/
+  .titulotabla {
+    font-size: 30px;
+    font-family: "Noto Sans JP";
+    font-weight: 800;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    color: darkgreen;
+    line-height: 100px;
+    text-align: center;
+  }
+  
+  table thead {
+    font-size: 25px;
+    font-family: "Noto Sans JP";
+    font-weight: 800;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    color: darkolivegreen;
+    line-height: 60px;
+    text-align: center;
+  }
+  table .plan {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: darkgreen;
+  }
+  table ol li {
+    color: darkcyan;
+    font-family: sans-serif;
+    list-style-type: none;
+    margin-left: 30px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  table .precio {
+    color: darkcyan;
+    font-family: sans-serif;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  table tbody {
+    background-color: #e3ffe3;
+  }
+  
+  .titulo-plan {
+    font-family: "Noto Sans JP";
+    font-weight: 600;
+    font-style: oblique;
+    font-size: 30px;
+    color: #0f580f;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 40px;
+  }
+  
+  .obrasocialdiv {
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .obrasocialdiv p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(49, 134, 69);
+    line-height: 30px;
+    font-weight: 500;
+  }
+  /*fin tabla*/
+  
+  /*formulario*/
+  
+  form .nombre {
+    color: darkgreen;
+    font-family: sans-serif;
+  }
+  form .email {
+    color: darkgreen;
+    font-family: sans-serif;
+    line-height: 40px;
+    margin-left: 16px;
+  }
+  form .telefono {
+    color: darkgreen;
+    font-family: sans-serif;
+    margin-right: -5px;
+  }
+  form .consulta {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: darkslategray;
+    line-height: 45px;
+  }
+  form .notificaciones {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: forestgreen;
+    line-height: 40px;
+  }
+  .tituloformulario {
+    font-family: "Noto Sans JP";
+    font-size: 34px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    line-height: 100px;
+    text-align: center;
+    font-weight: 800;
+    margin-right: 20px;
+    color: darkgreen;
+  }
+  .formulariogrid {
+    display: grid;
+    grid-template-columns: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-label {
+    font-family: sans-serif;
+    color: darkolivegreen;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .formcheckbox {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+  
+  .botonenviar {
+    display: grid;
+    grid-template-rows: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .botonrest {
+    display: grid;
+    grid-template-rows: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    
+  }
+  /*fin de formulario*/
+  
+  
+  /*pie de página*/
+  .contenedor{
+  max-width: 1170px;
+  margin: auto;
+  margin-right: 390px;
+  }
+  
+  .pie-fila{
+    display: flex;
+  }
+  
+  .contenedor ul {
+    list-style: none;
+  }
+  
+  .piedepagina {
+    background-color:rgba(149, 189, 100, 0.822);
+    padding: 70px 0;
+    box-sizing: border-box;
+  }
+  
+  .pie-col{
+   width: 30%;
+   padding: 0 15px;
+  }
+  
+  .pie-col h4{
+    font-size: 20px;
+    color: darkgreen;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family: "Noto Sans JP";
+    position: relative;
+    margin-left: 15px;
+  }
+  
+  .pie-col p{
+    font-size: 15px;
+    color: rgb(0, 100, 70);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family: "Noto Sans JP";
+    font-weight: 600;
+    line-height: 30px;
+  }
+  
+  .pie-col ul li {
+  line-height: 30px;
+  }
+  
+  .pie-col ul li a{
+     text-decoration: none;
+     font-size: 16px;
+     text-transform: capitalize;
+     font-weight: 600;
+     display: block;
+     color: rgb(0, 100, 70);
+     
+  }
+  
+  .redes1 {
+  margin-left: 30px;
+  }
+  
+  
+  
+  /*fin footer*/
+  
+  
+  /*servicios*/
+  .secservicios {
+    width: 90%;
+    margin: 2em auto;
+  }
+  
+  .secservicios article {
+    color: darkslategray;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin: 2em 2em 4em 2em;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  
+  .secservicios p {
+    padding: 30px;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 40px;
+    margin-top: 60px;
+    color: #0a410a;
+    font-style: italic;
+  }
+  
+  .imgvacunacion {
+    width: 640px;
+    height: 397px;
+    transition: 2s;
+    border-radius: 6px;
+  }
+  
+  .imgconsulta {
+    width: 640px;
+    height: 390px;
+    transition: 2s;
+    margin-right: 15px;
+    border-radius: 6px;
+  }
+  
+  .imgbaño {
+    width: 640px;
+    height: 390px;
+    transition: 2s;
+    margin-right: 15px;
+    border-radius: 6px;
+  }
+  
+  .imgalimento {
+    width: 640px;
+    height: 380px;
+    transition: 2s;
+    margin-right: 15px;
+    border-radius: 6px;
+  }
+  
+  .tituloservicios {
+    font-family: "Noto Sans JP";
+    text-align: center;
+    font-size: 37px;
+    color: darkgreen;
+    line-height: 100px;
+    font-weight: 800;
+    animation-duration: 2s;
+    animation-name: aparecer;
+  }
+  
+  .titulovacunacion {
+    font-family: sans-serif;
+    font-size: 27px;
+    color: #5e811c;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    font-weight: bold;
+  }
+  
+  .tituloconsulta {
+    font-family: sans-serif;
+    font-size: 27px;
+    color: #5e811c;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    font-weight: bold;
+  }
+  
+  .titulobaño {
+    font-family: sans-serif;
+    font-size: 27px;
+    color: #5e811c;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    font-weight: bold;
+  }
+  
+  .tituloalimenta {
+    font-family: sans-serif;
+    font-size: 27px;
+    color: #5e811c;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    font-weight: bold;
+  }
+  
+  /*productos*/
+  .tituloproductos {
+    font-family: "Noto Sans JP";
+    text-align: center;
+    font-size: 37px;
+    color: darkgreen;
+    line-height: 100px;
+    font-weight: 800;
+    animation-duration: 2s;
+    animation-name: aparecer;
+  }
+  
+  /*galeria*/
+  .grid-contenedor{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 40px;
+    padding: 20px;
+    margin-right: 10px;
+  }
+  
+  .grid-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 450px;
+  }
+  
+  .grid-product:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+  }
+  
+  .lista-productos {
+   display: grid;
+   grid-template-columns: auto auto;
+   padding: 40px
+   
+  }
+  
+  
+  .lista-productos ul li {
+    list-style: none;
+    font-size: 20px;
+    font-family: "Noto Sans JP";
+    color: green;
+    font-weight: 500;
+    line-height: 35px;
+  }
+  
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  
