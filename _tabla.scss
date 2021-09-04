@@ -1,0 +1,68 @@
+.titulotabla {
+    font: {
+      size: 24px;
+      family: $googlefont;
+      weight: 800;
+    }
+  
+    animation: {
+      duration: 2s;
+      name: aparecer;
+    }
+    color: $color3;
+    line-height: 60px;
+    text-align: center;
+  }
+  
+  table {
+    thead {
+      font: {
+        size: 25px;
+        family: $googlefont;
+        weight: 800;
+      }
+  
+      animation: {
+        duration: 2s;
+        name: aparecer;
+      }
+  
+      color: $color3;
+      line-height: 60px;
+      text-align: center;
+    }
+  
+    .plan {
+      font: {
+        family: $fontfam;
+        weight: bold;
+        size: 20px;
+      }
+  
+      text-align: center;
+      color: $color1;
+    }
+  
+    ol li {
+      color: $color2;
+      font-family: $fontfam;
+      list-style-type: none;
+      margin-left: 30px;
+      padding: 5px;
+      text-align: center;
+      font-weight: bold;
+    }
+  
+    .precio {
+      color: $color2;
+      font-family: $fontfam;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+  
+    tbody {
+      background-color: rgb(227, 255, 227);
+    }
+  }
+  
