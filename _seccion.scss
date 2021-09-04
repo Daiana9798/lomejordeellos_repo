@@ -1,0 +1,31 @@
+section {
+    .seccion {
+      width: 80%;
+      margin: 2em auto;
+    }
+  
+    article {
+      color: darkslategray;
+      font-size: 17px;
+      font-family: $fontfam;
+      margin: 2em 2em 4em 2em;
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  
+    p {
+      padding: 50px;
+    }
+  
+    img {
+      width: 450px;
+      height: 250px;
+      transition: 2s;
+    }
+  
+    .perrogato {
+      width: 445px;
+      height: 400px;
+      transition: 2s;
+    }
+  }
