@@ -1,0 +1,71 @@
+header {
+    .encabezadoMenu {
+      background-color: $colorbg;
+      display: inline-block;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      height: 120px;
+    }
+  
+    .encabezadoMenu a {
+      text-decoration: none;
+      color: white;
+      font-family: $fontfam;
+      letter-spacing: 1px;
+      font-size: 17px;
+      font-weight: 600;
+    }
+  
+    ul li {
+      list-style: none;
+    }
+  
+    .encabezadoMenu li {
+      display: inline-block;
+      border-style: solid;
+      border-width: 2px;
+      border-radius: 6px;
+      border-color: white;
+      margin-top: 10px;
+      margin-left: 100px;
+      padding: 3px 13px;
+      position: relative;
+      transition: 2s;
+    }
+  
+    .encabezadoMenu li:hover {
+      background-color: whitesmoke;
+    }
+  
+    .encabezadoMenu a:hover {
+      color: rgb(10, 65, 10);
+    }
+  
+    .encabezadoMenu ul ul {
+      position: absolute;
+      display: none;
+      margin: 5px 10px 2px -5px;
+      font-family: $fontfam;
+      padding: 7px;
+      background-color: rgb(103, 145, 26);
+    }
+  
+    ul li:hover ul {
+      display: block;
+    }
+  
+    .encabezadoMenu ul ul li {
+      display: block;
+      position: relative;
+      margin: 5px -5px -4px -5px;
+      font-family: $fontfam;
+      padding: 12px;
+    }
+  
+    .encabezadoMenu ul li a:hover {
+      background-color: rgb(221, 240, 187);
+    }
+  }
