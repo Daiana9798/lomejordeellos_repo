@@ -1,0 +1,122 @@
+$colorbg: rgb(103, 145, 26);
+$color1: darkgreen;
+$color2: darkcyan;
+$color3: darkolivegreen;
+$fontfam: sans-serif;
+$googlefont: "Noto Sans JP";
+
+
+
+* {
+  margin: 1px;
+  padding: 1px;
+}
+
+@import "menu";
+
+body {
+  background: linear-gradient(to bottom, rgb(192, 221, 137), whitesmoke);
+}
+
+.titulo1 {
+  text: {
+    align: center;
+    decoration: underline;
+  }
+
+  animation: {
+    duration: 2s;
+    name: aparecer;
+  }
+
+  font: {
+    family: $googlefont;
+    size: 37px;
+  }
+
+  color: $color2;
+  line-height: 150px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font: {
+    family: $googlefont;
+    style: italic;
+    size: 26px;
+  }
+
+  animation: {
+    duration: 2s;
+    name: aparecer;
+  }
+
+  color: $color1;
+  margin-left: 40px;
+  line-height: 8px;
+}
+
+@import "seccion";
+
+@import "tabla";
+
+@import "formulario";
+
+@import "servicios";
+
+@import "productos";
+
+
+
+aside {
+
+  font: {
+    family: $fontfam;
+    weight: bolder;
+    size: 15px;
+  }
+
+  line-height: 40px;
+}
+
+footer {
+  .piedepagina {
+
+    font: {
+      size: 20px;
+      family: $fontfam;
+    }
+
+    background-color: rgba(149, 189, 100, 0.822);
+    padding: 50px;
+    color: rgb(0, 128, 90);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
+
+.tituloservicios{
+  font: {
+      family: $fontfam;
+      size: 15px;
+    }
+
+    color: forestgreen;
+    line-height: 40px;
+    
+
+  text: {
+      align: center;
+    }
+}
+
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
