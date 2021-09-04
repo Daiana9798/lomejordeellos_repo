@@ -1,0 +1,65 @@
+form {
+    .nombre {
+      color: $color1;
+      font-family: $fontfam;
+    }
+  
+    .email {
+      color: $color1;
+      font-family: $fontfam;
+      line-height: 40px;
+      margin-left: 16px;
+    }
+  
+    .telefono {
+      color: $color1;
+      font-family: $fontfam;
+      margin-right: -5px;
+    }
+  
+    .consulta {
+      
+      font: {
+        family: $fontfam;
+        weight: bold;
+        size: 22px;
+      }
+  
+      color: darkslategray;
+      line-height: 45px;
+    }
+  
+    .notificaciones {
+  
+      font: {
+        family: $fontfam;
+        size: 15px;
+      }
+  
+      color: forestgreen;
+      line-height: 40px;
+    }
+  
+    .tituloform {
+  
+      font: {
+        style: normal;
+        size: 27px;
+      }
+  
+      animation: {
+        duration: 2s;
+        name: aparecer;
+      }
+  
+      line-height: 100px;
+      text-align: center;
+    }
+  
+    .formulariogrid {
+      display: grid;
+      grid-template-columns: 300px;
+    }
+  }
+  
+  
